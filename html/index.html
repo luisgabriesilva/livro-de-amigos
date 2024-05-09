@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="PT_BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>friendsbook</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <script src="../script/script.js"></script>
+</head>
+
+<body id="body">
+    <h1>friendsbook</h1>
+    <div id="input">
+        <textarea type="text" id="inputPost" placeholder="
+        O que está em sua mente hoje?"></textarea>
+        <button id="addBtn" onclick="addPost()">adicionar</button>
+    </div>
+    <div id="notification">
+        <p>Seu amigo, Gabriel, acabou de compartilhar uma postagem!</p>
+        <button onclick="remove()">remover alerta</button>
+    </div>
+    <div id="new">
+        <b><span id="count">1</span></b> post(s)!
+    </div>
+    <div class="post">
+        <p>Você quer ver por que a manipulação de DOM e páginas dinâmicas são interessantes?
+            Deixe-me contar um truque. Este truque funcionará em qualquer site. Abra o
+            guia console. Digite "<b>document.body.contentEditable = 'true';</b>".
+            Voilá! Agora você pode editar o texto da página da web em que está!</p>
+        <button>curti</button>
+        <button>comentar</button>
+    </div>
+</body>
+
+</html>
